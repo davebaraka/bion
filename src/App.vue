@@ -3,7 +3,7 @@
     <transition name="slide-y-transition">
     <LoadLogo v-if="!loaded_truth_logo" @loaded="loaded"/>
     </transition>
-    <transition name="fade-transition" tag="v-app">
+    <transition name="slide-y-transition" tag="v-app">
     <v-app v-if="loaded_truth_app">
       <NavigationDrawer
         v-bind:drawer_truth='drawer_truth' @drawer_="drawerToggle_"

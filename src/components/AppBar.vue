@@ -21,7 +21,6 @@
     <v-spacer></v-spacer>
 
     <div :class = "['pr-5', 'mr-5', 'mt-4']" v-if="$route.name === 'index'">
-     <transition-group name="slide-y-transition">
       <v-btn
         v-for="item in items" :key="item.title"
         text
@@ -31,7 +30,6 @@
       >
         {{ item.title }}
       </v-btn>
-     </transition-group>
     </div>
 
     <v-btn
