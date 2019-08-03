@@ -1,0 +1,97 @@
+/* Set Fonts */
+
+@font-face {
+    font-family: "Evolve T";
+    src: url("../fonts/MADE Evolve Sans Thin.otf");
+}
+
+@font-face {
+    font-family: "Evolve L";
+    src: url("../fonts/MADE Evolve Sans Light.otf");
+}
+
+@font-face {
+    font-family: "Evolve R";
+    src: url("../fonts/MADE Evolve Sans Regular.otf");
+}
+
+@font-face {
+    font-family: "Evolve M";
+    src: url("../fonts/MADE Evolve Sans Medium.otf");
+}
+
+@font-face {
+    font-family: "Evolve B";
+    src: url("../fonts/MADE Evolve Sans Bold.otf");
+}
+
+@font-face {
+    font-family: "Evolve EVO T";
+    src: url("../fonts/MADE Evolve Sans Thin EVO.otf");
+}
+
+@font-face {
+    font-family: "Evolve EVO L";
+    src: url("../fonts/MADE Evolve Sans Light EVO.otf");
+}
+
+@font-face {
+    font-family: "Evolve EVO R";
+    src: url("../fonts/MADE Evolve Sans Regular EVO.otf");
+}
+
+@font-face {
+    font-family: "Evolve EVO M";
+    src: url("../fonts/MADE Evolve Sans Medium EVO.otf");
+}
+
+@font-face {
+    font-family: "Evolve EVO B";
+    src: url("../fonts/MADE Evolve Sans Bold EVO.otf");
+}
+
+.evolve-evo-b {
+  font-family: Evolve EVO R;
+  font-size: 150%;
+}
+
+.app-bar-font {
+  font-family: Evolve EVO R;
+  font-size: 125%;
+}
+
+.fill-main {
+  min-height: 100vh;
+  max-width: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+  padding-top: 25%;
+}
+
+.fill {
+  min-height: 100vh;
+  max-width: 100%;
+  margin-right: 10%;
+  margin-left: 10%;
+}
+
+.sub-heading {
+  font-family: Evolve EVO B;
+  font-size: 300%;
+}
+
+.myColor {
+  background-color: #191919;
+}
+
+.myColor-text {
+  color: #191919;
+}
+
+/* Set default values for app */
+#app, html, body {
+  font-family: Evolve L;
+  background-color: #191919;
+  color: #ffecb3;
+  scroll-behavior: smooth;
+}
