@@ -20,9 +20,6 @@ npm run build
 git subtree push --prefix dist origin deploy
 ```
 
-### Github Pages Deployment
-See [Deployment Guide](https://levelup.gitconnected.com/how-to-deploy-your-vue-app-to-github-pages-897136799e19)
-
 ### Run your tests
 ```
 npm run test
@@ -32,6 +29,9 @@ npm run test
 ```
 npm run lint
 ```
+
+### Github Pages Deployment
+See [Deployment Guide](https://levelup.gitconnected.com/how-to-deploy-your-vue-app-to-github-pages-897136799e19)
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
