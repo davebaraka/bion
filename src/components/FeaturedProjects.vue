@@ -19,7 +19,7 @@
         <h3>OurCampus</h3>
         <p>Android app for campus events, professor ratings, and student utilities.</p>
          <v-btn
-           @click="linkTo('https://github.com/davebaraka/projects/tree/master/ourcampus')"
+           @click="linkTo('')"
          class="ma-2" outlined color="#191919">Learn More</v-btn>
       </div>
       <br>
@@ -41,7 +41,7 @@
         <h3 class="sm1">OurCampus</h3>
               <p class="sm">Android app for campus events, professor ratings, and student utilities.</p>
                <v-btn
-               @click="linkTo('https://github.com/davebaraka/projects/tree/master/ourcampus')"
+               @click="linkTo('')"
                class="ma-2 sm" small outlined color="#191919">Learn More</v-btn></div>
                <br>
                <br>
@@ -66,7 +66,7 @@
         <h3>Compliance Traceability: Privacy Policies as Software Development Artifacts</h3>
         <p>Privacy policy generator that automatically generates a privacy policy based on a developer's code.</p>
          <v-btn
-          @click="linkTo('mailto:dbaraka@wesleyan.edu')"
+          @click="linkTo('')"
          class="ma-2" outlined color="#191919">Learn More</v-btn>
       </div>
       <br>
@@ -88,7 +88,7 @@
         <h3 class="sm1">Compliance Traceability: Privacy Policies as Software Development Artifacts</h3>
               <p class="sm">Privacy policy generator that automatically generates a privacy policy based on a developer's code. </p>
                <v-btn
-               @click="linkTo('mailto:dbaraka@wesleyan.edu')"
+               @click="linkTo('')"
                class="ma-2 sm" small outlined color="#191919">Learn More</v-btn></div>
                <br>
                <br>
@@ -122,7 +122,7 @@
         <h3>GRAPHIC DESIGN PORTFOLIO</h3>
         <p>Several projects created using Adobe InDesign. Featuring a re-creation of the book jacket, <em>Things Not Seen</em>, by Andrew Clements.</p>
          <v-btn
-          @click="linkTo('https://github.com/davebaraka/projects/tree/master/graphic-design-portfolio')"
+          @click="linkTo('')"
          class="ma-2" outlined color="#191919">See My Portfolio</v-btn>
       </div>
       <br>
@@ -143,7 +143,7 @@
         <h3 class="sm1">GRAPHIC DESIGN PORTFOLIO</h3>
               <p class="sm">Several projects created using Adobe InDesign. Featuring a re-creation of the book jacket, <em>Things Not Seen</em>, by Andrew Clements.</p>
                <v-btn
-               @click="linkTo('https://github.com/davebaraka/projects/tree/master/graphic-design-portfolio')"
+               @click="linkTo('')"
                class="ma-2 sm" small outlined color="#191919">See My Portfolio</v-btn></div>
                <br>
                <br>
@@ -182,7 +182,7 @@ export default {
   }),
   methods: {
     linkTo(l){
-      if (l == 'mailto:dbaraka@wesleyan.edu') {
+      if (l == '') {
         window.location.href = l;
       } else {
         window.open(l, '_blank');

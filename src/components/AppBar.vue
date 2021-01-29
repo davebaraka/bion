@@ -68,7 +68,7 @@ export default {
   },
   methods: {
     goTo(){
-      window.location.replace('https://davebaraka.dev');
+      window.location.replace('');
     },
     linkTo(l){
       document.querySelector(l).scrollIntoView({ behavior: 'smooth' });

@@ -5,13 +5,13 @@
       <br>
     </v-flex>
     <v-flex grow style="margin-left: 5%;">
-        <v-btn icon @click="linkTo('mailto:dbaraka@wesleyan.edu')" class="space"><v-img src="../assets/img/envelope.svg" aspect-ratio="1" contain></v-img>
+        <v-btn icon @click="linkTo('')" class="space"><v-img src="../assets/img/envelope.svg" aspect-ratio="1" contain></v-img>
         </v-btn>
-        <v-btn class="space" icon @click="linkTo('https://www.linkedin.com/in/davebaraka/')"><v-img src="../assets/img/linkedin.svg" aspect-ratio="1" contain></v-img>
+        <v-btn class="space" icon @click="linkTo('')"><v-img src="../assets/img/linkedin.svg" aspect-ratio="1" contain></v-img>
         </v-btn>
-        <v-btn class="space" icon @click="linkTo('https://github.com/davebaraka/projects')"><v-img src="../assets/img/github.svg" aspect-ratio="1" contain></v-img>
+        <v-btn class="space" icon @click="linkTo('')"><v-img src="../assets/img/github.svg" aspect-ratio="1" contain></v-img>
         </v-btn>
-        <v-btn class="space" icon @click="linkTo('tel:802-222-0849')"><v-img src="../assets/img/phone.svg" aspect-ratio="1" contain></v-img>
+        <v-btn class="space" icon @click="linkTo('')"><v-img src="../assets/img/phone.svg" aspect-ratio="1" contain></v-img>
         </v-btn>
     </v-flex>
         <v-flex grow>
@@ -28,7 +28,7 @@ export default {
   methods: {
   },
     linkTo(l){
-      if (l == 'mailto:dbaraka@wesleyan.edu' || l == 'tel:802-222-0849') {
+      if (l == '' || l == '') {
         window.location.href = l;
       } else {
         window.open(l, '_blank');

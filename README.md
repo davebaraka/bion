@@ -1,6 +1,4 @@
-# bion
-
-[![Netlify Status](https://api.netlify.com/api/v1/badges/5a32e3ea-d32b-436a-84d6-e7788b26ffac/deploy-status)](https://app.netlify.com/sites/davebaraka/deploys)
+# Bion
 
 ## Project setup
 ```
@@ -16,6 +14,14 @@ npm run serve
 ```
 npm run build
 ```
+
+### Deploy build to github pages
+```
+git subtree push --prefix dist origin deploy
+```
+
+### Github Pages Deployment
+See [Deployment Guide](https://levelup.gitconnected.com/how-to-deploy-your-vue-app-to-github-pages-897136799e19)
 
 ### Run your tests
 ```

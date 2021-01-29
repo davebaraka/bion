@@ -26,53 +26,53 @@ export default {
       {
         title: 'STANDARD ML OF NEW JERSEY IMPLEMENTATION',
         text: 'An implementation of the programming language SML including lexcial analysis, parsing, type-checking and type-inference, interpretation, and compilation.',
-        link: 'mailto:dbaraka@wesleyan.edu'
+        link: ''
       },
       {
         title: 'THE EVOLVING NBA',
         text: 'R Project examining the diffusion of the "Golden State Warriors style of basketball" across the NBA.',
-        link: 'https://github.com/davebaraka/projects/blob/master/data-analysis/evolving-nba.pdf'
+        link: ''
       },
       {
         title: 'PROPOSITIONAL SEQUENT CALCULUS PROVER',
         text: 'Python program that automatically detects whether a given logcial statement is a tautology. Ohterwise, provides a counterexample.',
-        link: 'https://github.com/davebaraka/projects/blob/master/sequent-calculus-prover/propositional-sequent-calculus-prover.py'
+        link: ''
       },
       {
         title: 'DIGITAL ART PROTFOLIO',
         text: 'Various art projects utilizing laser-cutting, Adobe Photoshop, and Adobe Illustrator.',
-        link: 'https://github.com/davebaraka/projects/tree/master/digital-art-portfolio'
+        link: ''
       },
       {
         title: 'HOPPER',
         text: 'A biologically-inspired hopper constructed from a limited set of materials. “Fail early and fail often.”',
-        link: 'https://github.com/davebaraka/projects/blob/master/hopper-portfolio/hopper-portfolio.pdf'
+        link: ''
       },
       {
         title: 'PYTHON GAMES',
         text: 'A collection of games created in python.',
-        link: 'https://github.com/davebaraka/projects/tree/master/python-games'
+        link: ''
       },
       {
         title: 'BAYESIAN INFERENCE',
         text: 'SML program that performs statistical analysis on text.',
-        link: 'https://github.com/davebaraka/projects/tree/master/bayesian-inference'
+        link: ''
       },
       {
         title: 'ENVIRONMENTAL ADOVOCACY POSTER',
         text: 'Poster created as an initiaive to heighten environmental awareness.',
-        link: 'https://github.com/davebaraka/projects/blob/master/environmental-awareness/advocacy.pdf'
+        link: ''
       },
       {
         title: 'FLOATING GARDEN',
         text: 'Portable garden for plants that requires minimal maintenance.',
-        link: 'https://github.com/davebaraka/projects/blob/master/environmental-awareness/floating-garden.pdf'
+        link: ''
       },
     ]
   }),
   methods: {
     linkTo(l){
-      if (l == 'mailto:dbaraka@wesleyan.edu') {
+      if (l == '') {
         window.location.href = l;
       } else {
         window.open(l, '_blank');
